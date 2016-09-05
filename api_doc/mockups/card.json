@@ -704,7 +704,7 @@
         },
         "whenDidItHappen": {
           "code": "thisWeek",
-          "label": "Hace 5 días laborables"
+          "label": "Esta semana"
         }
       },
       "card": {
