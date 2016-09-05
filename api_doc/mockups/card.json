@@ -689,6 +689,12 @@
   },
   "similarCards": [
     {
+      "comparisonInfo": {
+        "sameCaseType": true,
+        "sameCase": true,
+        "sameType": true,
+        "createdByMy": true
+      },
       "code": "122/34/2016",
       "shortTitle": "Verificación de CUIT",
       "title": "Contratos de Locación de Servicio",
@@ -703,15 +709,11 @@
       "checkListPercent": 100,
       "checkListItemsCant": 5,
       "checkListItemsCantResolved": 5,
-      "sameCaseType": true,
-      "sameCase": true,
-      "sameType": true,
-      "createdByMy": true,
+      "resolvedByMy": true,
       "createdBy": {
         "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
       },
       "isResolvedCard": true,
-      "resolvedByMy": true,
       "resolvedTo": {
         "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
       },
@@ -726,55 +728,34 @@
           "erased": false
         }
       },
-      "whenDidItHappen": {
-        "code": "lastWeek",
-        "label": "La semana pasada"
-      },
       "titleEvent": "Has creado y resuelto esta tarjeta",
       "descriptionEvent": "Hace 5 días laborables"
     }
   ],
   "relatedCards": [
     {
-      "code": "45/36/2013",
-      "shortTitle": "Verificación de Foto",
-      "title": "Contratos de Locación de Servicio",
-      "subject": "27656133 Diego Pablo Mansilla",
-      "stage": {
-        "id": "a222cfdb-5f14-48db-a5d1-5b3491fb30ba",
-        "code": "72",
-        "title": "Resuelta",
-        "description": "Tarea que ha sido resuelta",
-        "erased": false
-      },
-      "checkListPercent": 100,
-      "checkListItemsCant": 3,
-      "checkListItemsCantResolved": 3,
-      "sameCaseType": true,
-      "sameCase": false,
-      "sameType": false,
-      "createdByMy": true,
-      "createdBy": {
-        "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
-      },
-      "isResolvedCard": true,
-      "resolvedByMy": true,
-      "resolvedTo": {
-        "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
-      },
-      "mr": "2013-07-29",
-      "tdr": {
-        "value": 789,
-        "unitTime": {
-          "id": "79562fa0-c09f-4886-a2f1-4edb3e8fae71",
-          "code": "23",
-          "title": "Días laborables",
-          "description": "Días laborables en base al calendario de trabajo institucional",
-          "erased": false
+      "event": {
+        "titleEvent": "Reesuelto por mi",
+        "moment": "2016-08-01",
+        "by": {
+          "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
+        },
+        "whenDidItHappen": {
+          "code": "longTime",
+          "label": "Hace más de 3 años"
         }
       },
-      "titleEvent": "Has creado y resuelto esta tarjeta",
-      "descriptionEvent": "Hace más de 3 años"
+      "card": {
+        "code": "45/36/2013",
+        "shortTitle": "Verificación de Foto",
+        "title": "Contratos de Locación de Servicio",
+        "subject": "27656133 Diego Pablo Mansilla",
+        "checkList": {
+          "checkListPercent": 100,
+          "checkListItemsCant": 3,
+          "checkListItemsCantResolved": 3
+        }
+      }
     }
   ]
-} 
+}
