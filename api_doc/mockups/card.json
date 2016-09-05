@@ -693,50 +693,38 @@
         "sameCaseType": true,
         "sameCase": true,
         "sameType": true,
-        "createdByMy": true
+        "createdByMy": true,
+        "resolvedByMy": true
       },
-      "code": "122/34/2016",
-      "shortTitle": "Verificación de CUIT",
-      "title": "Contratos de Locación de Servicio",
-      "subject": "27656133 Diego Pablo Mansilla",
-      "stage": {
-        "id": "a222cfdb-5f14-48db-a5d1-5b3491fb30ba",
-        "code": "72",
-        "title": "Resuelta",
-        "description": "Tarea que ha sido resuelta",
-        "erased": false
-      },
-      "checkListPercent": 100,
-      "checkListItemsCant": 5,
-      "checkListItemsCantResolved": 5,
-      "resolvedByMy": true,
-      "createdBy": {
-        "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
-      },
-      "isResolvedCard": true,
-      "resolvedTo": {
-        "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
-      },
-      "mr": "2016-07-29",
-      "tdr": {
-        "value": 5,
-        "unitTime": {
-          "id": "79562fa0-c09f-4886-a2f1-4edb3e8fae71",
-          "code": "23",
-          "title": "Días laborables",
-          "description": "Días laborables en base al calendario de trabajo institucional",
-          "erased": false
+      "event": {
+        "titleEvent": "Reesuelto por mi",
+        "moment": "2016-07-29",
+        "by": {
+          "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
+        },
+        "whenDidItHappen": {
+          "code": "thisWeek",
+          "label": "Hace 5 días laborables"
         }
       },
-      "titleEvent": "Has creado y resuelto esta tarjeta",
-      "descriptionEvent": "Hace 5 días laborables"
+      "card": {
+        "code": "122/34/2016",
+        "shortTitle": "Verificación de CUIT",
+        "title": "Contratos de Locación de Servicio",
+        "subject": "27656133 Diego Pablo Mansilla",
+        "checkList": {
+          "checkListPercent": 100,
+          "checkListItemsCant": 5,
+          "checkListItemsCantResolved": 5
+        }
+      }
     }
   ],
   "relatedCards": [
     {
       "event": {
         "titleEvent": "Reesuelto por mi",
-        "moment": "2016-08-01",
+        "moment": "2014-08-01",
         "by": {
           "id": "79562fa0-c09f-4886-a2f1-4edb3e8aba53"
         },
